@@ -34,7 +34,7 @@
     <div class="nav-bar d-flex">
         <h2><img src="./assets/favi1.png" alt="logo">  STUDENT ENROLLMENT FORM</h2>
     </div>
-
+    
     <div class="students row">
 
         <div class="enroll-student col-md">
@@ -43,37 +43,37 @@
                 <div class="form-group row">
                     <label for="name" class="col-sm-2 col-form-label">Name</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" minlength="4" id="name" required />
+                        <input type="text" class="form-control" minlength="4" id="name" placeholder="Student Name" required />
                         <div class="invalid-feedback">*Enter your name.</div>
 
                     </div>
                 </div>
-
+                <br>
                 <div class="form-group row">
                     <label for="email" class="col-sm-2 col-form-label">Email</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control" id="email" required />
+                        <input type="email" class="form-control" id="email" placeholder="Student Email" required />
                         <div class="invalid-feedback">*Enter  valid email address.</div>
                     </div>
                 </div>
-
+                <br>
                 <div class="form-group row">
                     <label for="website" class="col-sm-2 col-form-label">Website</label>
                     <div class="col-sm-10">
-                        <input type="url" class="form-control" id="website" required />
+                        <input type="url" class="form-control" id="website" placeholder="website Link" required />
                         <div class="invalid-feedback">*Enter valid link for your website.</div>
                     </div>
                 </div>
-
+                <br>
                 <div class="form-group row">
                     <label for="image" class="col-sm-2 col-form-label">Image link</label>
                     <div class="col-sm-10">
-                        <input type="url" class="form-control" id="image" required />
+                        <input type="url" class="form-control" id="image" placeholder="Image Link" required />
                         <div class="invalid-feedback">*Enter valid link for your image(link should be from public
                             account)</div>
                     </div>
                 </div>
-
+                <br><br>
                 <fieldset class="form-group row">
                     <legend class="col-form-label col-sm-2 float-sm-left pt-0">
                         Gender
@@ -100,7 +100,7 @@
                     </div>
                 </fieldset>
 
-
+                <br><br>
 
                 <fieldset class="form-group row">
                     <legend class="col-form-label col-sm-2 float-sm-left pt-0">
@@ -139,12 +139,35 @@
                                 *(Make sure that this Box is Checked.)
                             </div>
                         </div>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="skill" id="css" value="CSS"/>
+                            <label class="form-check-label" for="css">
+                                PHP
+                            </label>
+                            &nbsp;
+                            <div class="invalid-feedback">
+                                *(Make sure that this Box is Checked.)
+                            </div>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="skill" id="css" value="CSS"/>
+                            <label class="form-check-label" for="css">
+                                DATABASE
+                            </label>
+                            &nbsp;
+                            <div class="invalid-feedback">
+                                *(Make sure that this Box is Checked.)
+                            </div>
+                        </div>
                     </div>
                 </fieldset>
                 <br>
-                <br>
-
-                <button type="submit" class="btn btn-primary">Enroll Student</button> &nbsp; &nbsp; &nbsp;
+                <br><br><br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <button type="submit" class="btn btn-primary">Enroll Student</button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <button type="reset" class="btn btn-danger">Cancel</button>
             </form>
         </div>
@@ -155,7 +178,7 @@
             <div class="enroll-heading">
                 <h2>Enrolled Students</h2>
             </div>
-            <span id="span">Fill the form to Enroll the Students.</span>
+            <span id="span">Fill-Up the form to View Enrolled the Students.</span>
         </div>
     </div>
 </body>
